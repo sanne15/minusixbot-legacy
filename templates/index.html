@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+
+  <body>
+    <h1>Welcome to my page</h1>
+
+    <!-- iframe 태그를 이용하여 usage.txt 파일을 표시 -->
+    <iframe src="usages.txt" width="80%" height="600px"></iframe>
+
+    <p>Thank you for visiting my page.</p>
+  </body>
+</html>

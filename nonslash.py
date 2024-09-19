@@ -16,7 +16,7 @@ import string
 #from pprint import pprint
 
 intents = discord.Intents.all()
-TOKEN = 'MTA5MjQ3MzY4Njk5NDQ2MDY4Mg.GCJ7wF.F8h12j2yC-ZvvR4vPAuzGiagusjRjXwkfgC_QU'
+TOKEN = 'token'
 
 bot = commands.Bot(command_prefix='&', intents=intents)
 
